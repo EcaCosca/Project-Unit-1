@@ -8,12 +8,6 @@ Outline of the project for Unit 1 using HTML, CSS &amp; JavaScript
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
   <p align="center">
     Project for Unit 1
     <br />
