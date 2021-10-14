@@ -87,6 +87,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## What do you need to get it approved before you start working?
 
 - [Step by step using Trello](https://trello.com/es)
+    - [] Design
+    - [] Backlog
+    - [] To do
+    - [] Doing
+    - [] Code Review
+    - [] Testing
+    - [] Done
+
 - [Wireframes using Figma](https://www.figma.com/files/search?model_type=files&fuid=910903139620418288)
 - Meeting all the requirements.
 
