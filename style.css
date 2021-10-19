@@ -1,0 +1,82 @@
+.header{
+    width: 100%;
+}
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer{
+    position:fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+    width: 100%;
+   
+    background-color: antiquewhite;
+
+}
+table{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    margin: 5px;
+}
+table tr td{
+    padding: 10px;
+    margin: 509px;
+}
+
+#bookimg{
+    width: 250px;
+    height: 250px;
+}
+.content{
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 7px;
+    /* background-image:url('img/back.jpeg') */
+
+
+    
+    
+}
+
+
+.innercontainer{
+    
+    /* border-image-width: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-style: inset; */
+    text-indent: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    
+
+
+}
+img{
+width: 200px;
+
+
+}
+.addFav{
+    border: none;
+    /* width: 60px; */
+}
+#headImg{
+    width: 70px;
+
+}
+#headf{
+    font-family: 'Anton', sans-serif;
+}
+btn{
+    text-align: center;
+}
