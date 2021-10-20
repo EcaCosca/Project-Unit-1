@@ -1,0 +1,248 @@
+
+body{
+    background-image: 'stock-vector-book-club-cartoon-banner-young-woman-reading-in-library-at-night-time-thoughtful-girl-in-dark-1972157615.jpeg';
+}
+    /* Phone */
+    .content{
+        /* position: relative; */
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-gap: 3px;
+        /* background-image:url('img/back.jpeg') */
+    
+    
+        
+        
+    }
+    .innercontainer{
+    
+        /* border-image-width: 20px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border-style: inset; */
+        text-indent: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 10px;
+    }
+    .userContent{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 7px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 19px;
+        margin-bottom: 25px;
+    
+    
+    }
+
+
+
+
+
+
+
+.header{
+    width: 100%;
+}
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer{
+    position:fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+    width: 100%;
+   
+    background-color: antiquewhite;
+
+}
+table{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    margin: 5px;
+}
+table tr td{
+    padding: 10px;
+    margin: 509px;
+}
+
+#bookimg{
+    width: 250px;
+    height: 250px;
+}
+/* .content{
+    /* position: relative; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr ; */
+    /* grid-gap: 7px; */
+    /* background-image:url('img/back.jpeg') */
+
+
+     /* */
+    
+/* } */
+
+
+/* .innercontainer{
+    
+    border-image-width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: inset;
+    text-indent: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    
+
+
+} */
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-style: inset; */
+    text-indent: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+
+}
+/* .userContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 19px;
+    margin-bottom: 25px;
+
+
+} */
+img{
+width: 200px;
+
+
+}
+
+#headImg{
+    width: 70px;
+
+}
+#headf{
+    font-family: 'Anton', sans-serif;
+}
+btn{
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TextArea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    /* Tablet */
+    .content{
+        /* position: relative; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 7px;
+        /* background-image:url('img/back.jpeg') */
+    
+    
+        
+        
+    }
+    
+        .innercontainer{
+        
+            /* border-image-width: 20px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border-style: inset; */
+            text-indent: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 10px;
+        }
+        .userContent{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-gap: 7px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 19px;
+            margin-bottom: 25px;
+        
+        
+        }
+    }
+
+
+    
+
+@media screen and (min-width: 1024px) and (max-height: 1310px) {
+
+    .content{
+        /* position: relative; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 7px;
+        /* background-image:url('img/back.jpeg') */
+    
+    
+        
+        
+    }
+    
+        .innercontainer{
+        
+            /* border-image-width: 20px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border-style: inset; */
+            text-indent: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 10px;
+        }
+        .userContent{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-gap: 7px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 19px;
+            margin-bottom: 25px;
+        
+        
+        }
+    }
+
